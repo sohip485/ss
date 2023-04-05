@@ -1,0 +1,41 @@
+
+<html>
+<head>
+    <body>
+<p>
+    <li>#include<stdio.h></li>
+
+<li>int main()</li>
+<li>{   </li>
+    <li>int i,j,r,c;</li>
+    <li>printf("Enter rows and col : ");</li>
+        <li>scanf("%d %d", &r,&c);</li>
+        <li>int array[r][c];</li>
+        <li>for (i = 0; i < r; i++)</li></r>
+        <li>{</li>
+            <li>for (j = 0; j < c; j++)</li></c>
+            <li>{</li>
+                <li> printf("\nEnter a[%d][%d] : ",i,j);</li>
+                 <li>scanf("%d", &array[i][j]);</li>
+        <li>}</li>
+    <li>}</li>
+ <li>printf("\nThe Diagonals elements are : \n");</li>
+ if(r==c){
+     <li> for(i=0;i < r;i++) </li>
+            <li>{</li>
+         <li>       for(j=0;j< c;j++)</li>
+                <li>{</li>
+             <li>       if(i==j)</li>
+                 <li>    printf("%d ", array[i][j]);</li>   
+                <li>}</li>          
+        <li>}</li>
+    <li>}</li>
+    
+<li>return 0;</li>
+ }
+</p>
+
+    
+</body>
+</head>
+</html>
